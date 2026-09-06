@@ -1,0 +1,322 @@
+# Data Card — World Development Indicators
+
+## 1. Informasi Dataset
+
+| Informasi        | Keterangan                                                                            |
+| ---------------- | ------------------------------------------------------------------------------------- |
+| Nama Dataset     | World Development Indicators (WDI)                                                    |
+| Penerbit         | World Bank                                                                            |
+| Sumber           | World Bank Data Catalog                                                               |
+| URL              | https://datacatalog.worldbank.org/search/dataset/0037712/world-development-indicators |
+| Lisensi          | Creative Commons Attribution 4.0 International (CC BY 4.0)                            |
+| Tanggal Akses    | 6 September 2026                                                                      |
+| Periode Data     | 1960–2025                                                                             |
+| Periodicitas     | Tahunan                                                                               |
+| Cakupan          | Lebih dari 200 negara dan wilayah                                                     |
+| Jumlah Indikator | Lebih dari 1.500 indikator                                                            |
+| Penggunaan       | Analisis data pembangunan dan pertumbuhan ekonomi                                     |
+
+---
+
+## 2. Deskripsi Dataset
+
+World Development Indicators (WDI) merupakan kumpulan data pembangunan global yang diterbitkan oleh World Bank.
+
+Dataset ini menyediakan berbagai indikator yang berkaitan dengan kondisi ekonomi, sosial, pendidikan, kesehatan, lingkungan, perdagangan, energi, infrastruktur, dan pembangunan suatu negara.
+
+Dataset digunakan dalam proyek ini untuk menganalisis hubungan antara beberapa indikator pembangunan dengan pertumbuhan ekonomi negara.
+
+---
+
+## 3. Tujuan Penggunaan Dataset
+
+Dataset digunakan untuk:
+
+1. Menganalisis perkembangan pertumbuhan ekonomi.
+2. Membandingkan kondisi ekonomi antarnegara.
+3. Menganalisis hubungan antara pertumbuhan ekonomi dan indikator pembangunan.
+4. Membangun model prediksi sederhana.
+5. Mengelompokkan negara berdasarkan karakteristik indikator pembangunan.
+
+Dataset tidak digunakan untuk membuat keputusan individual terhadap seseorang.
+
+---
+
+## 4. Unit Analisis
+
+Unit analisis yang digunakan adalah:
+
+**Negara/wilayah pada setiap tahun pengamatan.**
+
+Satu observasi terdiri dari:
+
+```text
+Country + Year
+```
+
+Contoh:
+
+```text
+Indonesia + 2020
+Indonesia + 2021
+Malaysia + 2020
+Malaysia + 2021
+```
+
+---
+
+## 5. Variabel Target
+
+Variabel target utama:
+
+### GDP Growth (Annual %)
+
+**Kode indikator:** `NY.GDP.MKTP.KD.ZG`
+
+Variabel ini digunakan sebagai representasi pertumbuhan ekonomi tahunan suatu negara.
+
+---
+
+## 6. Variabel Utama
+
+| Variabel                  | Fungsi             | Keterangan                   |
+| ------------------------- | ------------------ | ---------------------------- |
+| GDP Growth                | Target             | Pertumbuhan GDP tahunan      |
+| GDP per Capita            | Prediktor          | GDP per kapita               |
+| Unemployment              | Prediktor          | Tingkat pengangguran         |
+| Internet Users            | Prediktor          | Persentase pengguna internet |
+| Education                 | Prediktor          | Indikator pendidikan         |
+| Population                | Prediktor/Analisis | Jumlah penduduk              |
+| Foreign Direct Investment | Prediktor/Analisis | Investasi langsung asing     |
+| Trade                     | Prediktor/Analisis | Indikator perdagangan        |
+
+Pemilihan variabel akhir akan dilakukan setelah tahap eksplorasi data dan pemeriksaan kelengkapan data.
+
+---
+
+## 7. Periode Data
+
+WDI memiliki cakupan data dari tahun:
+
+**1960–2025**
+
+Periodicitas data adalah:
+
+**Tahunan.**
+
+Tidak semua indikator memiliki data yang tersedia untuk seluruh periode tersebut. Oleh karena itu, periode final penelitian akan ditentukan berdasarkan ketersediaan dan kelengkapan variabel yang digunakan.
+
+---
+
+## 8. Cakupan Geografis
+
+Dataset mencakup lebih dari 200 negara dan wilayah.
+
+Penelitian dapat menggunakan seluruh negara yang memiliki data cukup lengkap atau memilih subset negara berdasarkan kebutuhan analisis.
+
+Pemilihan negara akan ditentukan setelah proses pemeriksaan missing value dilakukan.
+
+---
+
+## 9. Potensi Missing Value
+
+Tidak semua indikator memiliki nilai untuk seluruh negara dan tahun.
+
+Missing value dapat terjadi karena:
+
+* data tidak tersedia;
+* data belum dikumpulkan;
+* perbedaan sistem statistik;
+* keterbatasan pelaporan;
+* perbedaan periode ketersediaan indikator.
+
+Missing value akan diperiksa sebelum analisis dilakukan.
+
+Metode penanganan missing value akan disesuaikan dengan karakteristik masing-masing variabel dan jumlah data yang hilang.
+
+---
+
+## 10. Potensi Bias
+
+Beberapa potensi bias yang perlu diperhatikan:
+
+### Perbedaan kualitas data
+
+Kualitas dan kelengkapan data dapat berbeda antarnegara.
+
+### Perbedaan metode pengumpulan
+
+Setiap negara dapat memiliki metode statistik dan sistem pengumpulan data yang berbeda.
+
+### Missing Value
+
+Negara dengan data yang tidak lengkap dapat menghasilkan representasi yang tidak seimbang.
+
+### Revisi Data
+
+Data yang diterbitkan dapat diperbarui atau direvisi oleh sumber data.
+
+### Bias Interpretasi
+
+Hubungan statistik tidak dapat langsung dianggap sebagai hubungan sebab-akibat.
+
+---
+
+## 11. Sensitivitas
+
+Hasil analisis dapat sensitif terhadap:
+
+1. Pemilihan periode penelitian.
+2. Pemilihan negara.
+3. Pemilihan indikator.
+4. Penanganan missing value.
+5. Penanganan outlier.
+6. Standardisasi data.
+7. Pemilihan parameter model.
+8. Pemilihan jumlah cluster pada K-Means.
+
+Untuk mengurangi risiko tersebut, proses preprocessing dan keputusan analisis akan didokumentasikan pada repository.
+
+---
+
+## 12. Redistribusi dan Lisensi
+
+Dataset WDI menggunakan ketentuan lisensi **Creative Commons Attribution 4.0 International (CC BY 4.0)** sesuai informasi yang diberikan oleh World Bank.
+
+Penggunaan dan redistribusi dataset harus tetap mengikuti ketentuan lisensi dan atribusi yang berlaku.
+
+Atribusi sumber:
+
+> World Bank, World Development Indicators.
+
+Sumber dataset:
+
+https://datacatalog.worldbank.org/search/dataset/0037712/world-development-indicators
+
+Repository proyek tidak mengubah hak kepemilikan atas dataset asli.
+
+Kode yang dibuat oleh kelompok untuk pengolahan dan analisis data menggunakan **MIT License**.
+
+---
+
+## 13. Privasi dan Sensitivitas
+
+Dataset yang digunakan dalam proyek ini merupakan data pembangunan tingkat negara/wilayah dan tidak ditujukan untuk menganalisis data pribadi individu.
+
+Penelitian tidak menggunakan informasi seperti:
+
+* nama individu;
+* alamat individu;
+* nomor identitas;
+* informasi akun;
+* informasi pembayaran;
+* data pribadi lainnya.
+
+---
+
+## 14. Risiko Penyalahgunaan
+
+Hasil analisis tidak boleh digunakan sebagai satu-satunya dasar untuk mengambil keputusan yang berdampak besar terhadap suatu negara, kelompok masyarakat, atau individu.
+
+Hasil penelitian bersifat analitis dan digunakan untuk tujuan akademik.
+
+Interpretasi hasil harus mempertimbangkan keterbatasan dataset, metode analisis, missing value, dan kemungkinan bias.
+
+---
+
+## 15. Metode Analisis
+
+Dataset akan dianalisis menggunakan:
+
+### Analisis Deskriptif
+
+* Mean
+* Median
+* Minimum
+* Maksimum
+* Standar deviasi
+* Kuartil
+
+### Visualisasi
+
+* Line chart
+* Bar chart
+* Scatter plot
+* Heatmap
+* Boxplot
+
+### Analisis Lanjutan
+
+* Korelasi
+* Regresi linear
+* K-Means clustering
+
+---
+
+## 16. Evaluasi
+
+Untuk regresi:
+
+* Mean Absolute Error (MAE)
+* Root Mean Squared Error (RMSE)
+* R-Squared (R²)
+
+Untuk clustering:
+
+* Silhouette Score
+
+Baseline prediksi menggunakan:
+
+**Mean Baseline**
+
+---
+
+## 17. Reproducibility
+
+Tanggal akses dataset:
+
+**6 September 2026**
+
+Informasi sumber, preprocessing, analisis, dan perubahan kode akan didokumentasikan dalam repository GitHub.
+
+Struktur dokumentasi:
+
+```text
+docs/
+└── milestones/
+    └── tugas-1/
+        ├── proposal.pdf
+        └── data-card.md
+```
+
+---
+
+## 18. Keterbatasan Dataset
+
+Beberapa keterbatasan yang perlu diperhatikan:
+
+1. Tidak semua indikator memiliki periode data yang sama.
+2. Tidak semua negara memiliki data yang lengkap.
+3. Beberapa indikator dapat mengalami perubahan atau revisi.
+4. Perbandingan antarnegara perlu memperhatikan perbedaan karakteristik ekonomi dan sistem statistik.
+5. Hasil model bergantung pada variabel dan periode yang dipilih.
+
+---
+
+## 19. Ringkasan
+
+World Development Indicators dipilih karena menyediakan data pembangunan global dengan cakupan negara/wilayah dan indikator yang luas.
+
+Dataset digunakan untuk menganalisis hubungan berbagai indikator pembangunan dengan pertumbuhan ekonomi. Variabel target utama adalah GDP Growth, sedangkan GDP per capita, unemployment, internet users, education, population, foreign direct investment, dan trade menjadi kandidat variabel analisis.
+
+Data akan melalui proses cleaning, preprocessing, exploratory data analysis, analisis statistik, visualisasi, pemodelan, dan evaluasi sebelum hasil akhir disimpulkan.
+
+---
+
+## 20. Referensi Dataset
+
+World Bank. *World Development Indicators.*
+
+World Bank Data Catalog:
+
+https://datacatalog.worldbank.org/search/dataset/0037712/world-development-indicators
