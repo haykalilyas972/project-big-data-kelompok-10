@@ -283,16 +283,15 @@ data-card.md
 
 ## Anggota Kelompok
 
-| No. | Nama           | NIM | Peran                 |
-| --- | -------------- | --- | --------------------- |
-| 1   | Nama Anggota 1 | NIM | Project Coordinator   |
-| 2   | Nama Anggota 2 | NIM | Data Collection       |
-| 3   | Nama Anggota 3 | NIM | Data Cleaning         |
-| 4   | Nama Anggota 4 | NIM | Data Analysis         |
-| 5   | Nama Anggota 5 | NIM | Visualization         |
-| 6   | Nama Anggota 6 | NIM | Modeling & Evaluation |
+| No. | Nama             |      NIM      | Peran                 |
+| --- | ---------------- | ------------- | --------------------- |
+| 1   |   Haykal Ilyas   | 2410631250012 | Project Coordinator   |
+| 2   |   Haykal Ilyas   | 2410631250012 | Data Collection       |
+| 3   |   Haykal Ilyas   | 2410631250012 | Data Cleaning         |
+| 4   | M hanif abdillah | 2410631250099 | Data Analysis         |
+| 5   | M hanif abdillah | 2410631250099 | Visualization         |
+| 6   | M hanif abdillah | 2410631250099 | Modeling & Evaluation |
 
-> **Catatan:** Ganti nama, NIM, dan peran sesuai anggota kelompok sebenarnya.
 
 ---
 
