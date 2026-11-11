@@ -1,0 +1,7 @@
+indicator,total_records,missing_values,valid_values,missing_percentage
+GDP_Growth,2660,95,2565,3.57
+GDP_per_Capita,2660,91,2569,3.42
+Unemployment,2660,319,2341,11.99
+Internet_Users,2660,456,2204,17.14
+Population,2660,10,2650,0.38
+FDI,2660,227,2433,8.53

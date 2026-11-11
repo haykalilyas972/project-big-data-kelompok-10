@@ -1,0 +1,11 @@
+column,data_type
+indicator,object
+country,str
+countryiso3code,str
+date,Int64
+value,float64
+unit,str
+obs_status,str
+decimal,int64
+indicator_name,str
+indicator_code,str

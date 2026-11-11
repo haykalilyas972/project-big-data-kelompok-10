@@ -1,0 +1,301 @@
+country,countryiso3code,date,value,indicator_name
+High income,,2024,1.96948428510515,GDP_Growth
+High income,,2023,1.79534582183453,GDP_Growth
+High income,,2022,3.10586069350637,GDP_Growth
+High income,,2021,5.97111332006308,GDP_Growth
+High income,,2020,-3.8661836302079,GDP_Growth
+High income,,2019,1.90035790608474,GDP_Growth
+High income,,2018,2.4045350031779,GDP_Growth
+High income,,2017,2.49197626247837,GDP_Growth
+High income,,2016,1.8396590704604,GDP_Growth
+High income,,2015,2.36450358189593,GDP_Growth
+Low income,,2024,3.40605658075204,GDP_Growth
+Low income,,2023,1.21474688217289,GDP_Growth
+Low income,,2022,3.73264703552607,GDP_Growth
+Low income,,2021,2.03102251641869,GDP_Growth
+Low income,,2020,0.270078071528431,GDP_Growth
+Low income,,2019,3.95860369775775,GDP_Growth
+Low income,,2018,3.50195265516888,GDP_Growth
+Low income,,2017,3.16424373054566,GDP_Growth
+Low income,,2016,1.79417060199694,GDP_Growth
+Low income,,2015,-0.422605997956367,GDP_Growth
+Lower middle income,,2024,5.37952719978989,GDP_Growth
+Lower middle income,,2023,5.29082296744888,GDP_Growth
+Lower middle income,,2022,6.27876038879147,GDP_Growth
+Lower middle income,,2021,6.79896357094398,GDP_Growth
+Lower middle income,,2020,-4.21903396199714,GDP_Growth
+Lower middle income,,2019,3.403376204922,GDP_Growth
+Lower middle income,,2018,4.90431450173901,GDP_Growth
+Lower middle income,,2017,4.80938629568182,GDP_Growth
+Lower middle income,,2016,5.00300529129819,GDP_Growth
+Lower middle income,,2015,5.54051938384552,GDP_Growth
+Not classified,,2024,,GDP_Growth
+Not classified,,2023,,GDP_Growth
+Not classified,,2022,,GDP_Growth
+Not classified,,2021,,GDP_Growth
+Not classified,,2020,,GDP_Growth
+Not classified,,2019,,GDP_Growth
+Not classified,,2018,,GDP_Growth
+Not classified,,2017,,GDP_Growth
+Not classified,,2016,,GDP_Growth
+Not classified,,2015,,GDP_Growth
+Upper middle income,,2024,4.23445227221153,GDP_Growth
+Upper middle income,,2023,4.57426687515756,GDP_Growth
+Upper middle income,,2022,3.53652312477,GDP_Growth
+Upper middle income,,2021,7.58860883559839,GDP_Growth
+Upper middle income,,2020,-0.502919871037093,GDP_Growth
+Upper middle income,,2019,4.24595361596553,GDP_Growth
+Upper middle income,,2018,4.95165024884356,GDP_Growth
+Upper middle income,,2017,5.40459151052539,GDP_Growth
+Upper middle income,,2016,4.62482816773945,GDP_Growth
+Upper middle income,,2015,4.5605568851977,GDP_Growth
+High income,,2024,50907.2761474674,GDP_per_Capita
+High income,,2023,49141.5400740302,GDP_per_Capita
+High income,,2022,47056.4874992384,GDP_per_Capita
+High income,,2021,45545.9474677757,GDP_per_Capita
+High income,,2020,40453.9686533276,GDP_per_Capita
+High income,,2019,41570.3760789982,GDP_per_Capita
+High income,,2018,41295.6262218528,GDP_per_Capita
+High income,,2017,38970.4660370017,GDP_per_Capita
+High income,,2016,37232.2355227355,GDP_per_Capita
+High income,,2015,36734.6310227088,GDP_per_Capita
+Low income,,2024,808.500564579263,GDP_per_Capita
+Low income,,2023,765.64916597333,GDP_per_Capita
+Low income,,2022,778.915065676706,GDP_per_Capita
+Low income,,2021,694.087880017057,GDP_per_Capita
+Low income,,2020,645.138571127662,GDP_per_Capita
+Low income,,2019,671.117139517642,GDP_per_Capita
+Low income,,2018,661.14729086377,GDP_per_Capita
+Low income,,2017,644.852308695691,GDP_per_Capita
+Low income,,2016,633.777355522048,GDP_per_Capita
+Low income,,2015,714.836450326294,GDP_per_Capita
+Lower middle income,,2024,2354.1541763908,GDP_per_Capita
+Lower middle income,,2023,2319.95481547486,GDP_per_Capita
+Lower middle income,,2022,2347.99329840157,GDP_per_Capita
+Lower middle income,,2021,2251.14460096524,GDP_per_Capita
+Lower middle income,,2020,1996.97695544468,GDP_per_Capita
+Lower middle income,,2019,2116.20506959362,GDP_per_Capita
+Lower middle income,,2018,1986.83702598126,GDP_per_Capita
+Lower middle income,,2017,1943.04862156303,GDP_per_Capita
+Lower middle income,,2016,1817.03211621924,GDP_per_Capita
+Lower middle income,,2015,1780.68853695471,GDP_per_Capita
+Not classified,,2024,,GDP_per_Capita
+Not classified,,2023,,GDP_per_Capita
+Not classified,,2022,,GDP_per_Capita
+Not classified,,2021,,GDP_per_Capita
+Not classified,,2020,,GDP_per_Capita
+Not classified,,2019,,GDP_per_Capita
+Not classified,,2018,,GDP_per_Capita
+Not classified,,2017,,GDP_per_Capita
+Not classified,,2016,,GDP_per_Capita
+Not classified,,2015,,GDP_per_Capita
+Upper middle income,,2024,10443.3480457159,GDP_per_Capita
+Upper middle income,,2023,10118.6217728148,GDP_per_Capita
+Upper middle income,,2022,9796.27244734764,GDP_per_Capita
+Upper middle income,,2021,9409.61235165342,GDP_per_Capita
+Upper middle income,,2020,7949.25683610967,GDP_per_Capita
+Upper middle income,,2019,8244.30681174043,GDP_per_Capita
+Upper middle income,,2018,8149.60205746059,GDP_per_Capita
+Upper middle income,,2017,7676.40394987858,GDP_per_Capita
+Upper middle income,,2016,7068.00587843387,GDP_per_Capita
+Upper middle income,,2015,7083.47780015619,GDP_per_Capita
+High income,,2024,4.36900295139978,Unemployment
+High income,,2023,4.33657934041449,Unemployment
+High income,,2022,4.50967974234969,Unemployment
+High income,,2021,5.56341269080663,Unemployment
+High income,,2020,6.46030036409899,Unemployment
+High income,,2019,4.76095962548232,Unemployment
+High income,,2018,5.0794494069113,Unemployment
+High income,,2017,5.57808653810898,Unemployment
+High income,,2016,6.11023166310052,Unemployment
+High income,,2015,6.55114180038431,Unemployment
+Low income,,2024,4.89022892217814,Unemployment
+Low income,,2023,5.07474818178355,Unemployment
+Low income,,2022,5.26019458558182,Unemployment
+Low income,,2021,5.83298884904326,Unemployment
+Low income,,2020,5.80412040229029,Unemployment
+Low income,,2019,5.12297180265082,Unemployment
+Low income,,2018,5.08766017796121,Unemployment
+Low income,,2017,5.14359043444685,Unemployment
+Low income,,2016,5.04961130545723,Unemployment
+Low income,,2015,4.94520983003529,Unemployment
+Lower middle income,,2024,4.47150579245463,Unemployment
+Lower middle income,,2023,4.44638060849243,Unemployment
+Lower middle income,,2022,4.99827575124402,Unemployment
+Lower middle income,,2021,6.2565962013459,Unemployment
+Lower middle income,,2020,7.01028456505462,Unemployment
+Lower middle income,,2019,5.93973395532034,Unemployment
+Lower middle income,,2018,6.50468294481071,Unemployment
+Lower middle income,,2017,6.47118842422572,Unemployment
+Lower middle income,,2016,6.39025580143605,Unemployment
+Lower middle income,,2015,6.50959624268599,Unemployment
+Not classified,,2024,,Unemployment
+Not classified,,2023,,Unemployment
+Not classified,,2022,,Unemployment
+Not classified,,2021,,Unemployment
+Not classified,,2020,,Unemployment
+Not classified,,2019,,Unemployment
+Not classified,,2018,,Unemployment
+Not classified,,2017,,Unemployment
+Not classified,,2016,,Unemployment
+Not classified,,2015,,Unemployment
+Upper middle income,,2024,5.26143156011161,Unemployment
+Upper middle income,,2023,5.36297560426889,Unemployment
+Upper middle income,,2022,5.75041485644261,Unemployment
+Upper middle income,,2021,6.15372931005527,Unemployment
+Upper middle income,,2020,6.47637385311808,Unemployment
+Upper middle income,,2019,5.80585688987594,Unemployment
+Upper middle income,,2018,5.67121545409166,Unemployment
+Upper middle income,,2017,5.77337201527055,Unemployment
+Upper middle income,,2016,5.7624084064723,Unemployment
+Upper middle income,,2015,5.55781700600781,Unemployment
+High income,,2024,93.0,Internet_Users
+High income,,2023,91.9,Internet_Users
+High income,,2022,91.0,Internet_Users
+High income,,2021,90.0,Internet_Users
+High income,,2020,88.4,Internet_Users
+High income,,2019,87.5,Internet_Users
+High income,,2018,86.3,Internet_Users
+High income,,2017,84.2,Internet_Users
+High income,,2016,82.5,Internet_Users
+High income,,2015,78.3,Internet_Users
+Low income,,2024,22.5,Internet_Users
+Low income,,2023,22.0,Internet_Users
+Low income,,2022,21.2,Internet_Users
+Low income,,2021,19.0,Internet_Users
+Low income,,2020,17.6,Internet_Users
+Low income,,2019,16.4,Internet_Users
+Low income,,2018,13.8,Internet_Users
+Low income,,2017,11.4,Internet_Users
+Low income,,2016,10.0,Internet_Users
+Low income,,2015,7.9,Internet_Users
+Lower middle income,,2024,58.9,Internet_Users
+Lower middle income,,2023,55.4,Internet_Users
+Lower middle income,,2022,52.3,Internet_Users
+Lower middle income,,2021,47.4,Internet_Users
+Lower middle income,,2020,42.5,Internet_Users
+Lower middle income,,2019,33.4,Internet_Users
+Lower middle income,,2018,27.2,Internet_Users
+Lower middle income,,2017,24.4,Internet_Users
+Lower middle income,,2016,21.9,Internet_Users
+Lower middle income,,2015,19.5,Internet_Users
+Not classified,,2024,,Internet_Users
+Not classified,,2023,,Internet_Users
+Not classified,,2022,,Internet_Users
+Not classified,,2021,,Internet_Users
+Not classified,,2020,,Internet_Users
+Not classified,,2019,,Internet_Users
+Not classified,,2018,,Internet_Users
+Not classified,,2017,,Internet_Users
+Not classified,,2016,,Internet_Users
+Not classified,,2015,,Internet_Users
+Upper middle income,,2024,86.9,Internet_Users
+Upper middle income,,2023,85.3,Internet_Users
+Upper middle income,,2022,82.7,Internet_Users
+Upper middle income,,2021,79.4,Internet_Users
+Upper middle income,,2020,74.9,Internet_Users
+Upper middle income,,2019,67.5,Internet_Users
+Upper middle income,,2018,62.2,Internet_Users
+Upper middle income,,2017,57.7,Internet_Users
+Upper middle income,,2016,53.3,Internet_Users
+Upper middle income,,2015,47.9,Internet_Users
+High income,,2024,1417926222.0,Population
+High income,,2023,1408138595.0,Population
+High income,,2022,1398027812.0,Population
+High income,,2021,1391809845.0,Population
+High income,,2020,1393469256.0,Population
+High income,,2019,1389767299.0,Population
+High income,,2018,1384829843.0,Population
+High income,,2017,1380317891.0,Population
+High income,,2016,1374283414.0,Population
+High income,,2015,1366012613.0,Population
+Low income,,2024,747152629.0,Population
+Low income,,2023,727162058.0,Population
+Low income,,2022,707776045.0,Population
+Low income,,2021,689336827.0,Population
+Low income,,2020,670891024.0,Population
+Low income,,2019,652255298.0,Population
+Low income,,2018,633927417.0,Population
+Low income,,2017,616499860.0,Population
+Low income,,2016,600009187.0,Population
+Low income,,2015,584512207.0,Population
+Lower middle income,,2024,2907379621.0,Population
+Lower middle income,,2023,2869695351.0,Population
+Lower middle income,,2022,2832445640.0,Population
+Lower middle income,,2021,2797047001.0,Population
+Lower middle income,,2020,2761575388.0,Population
+Lower middle income,,2019,2724611683.0,Population
+Lower middle income,,2018,2687882795.0,Population
+Lower middle income,,2017,2650727446.0,Population
+Lower middle income,,2016,2612496538.0,Population
+Lower middle income,,2015,2573897309.0,Population
+Not classified,,2024,,Population
+Not classified,,2023,,Population
+Not classified,,2022,,Population
+Not classified,,2021,,Population
+Not classified,,2020,,Population
+Not classified,,2019,,Population
+Not classified,,2018,,Population
+Not classified,,2017,,Population
+Not classified,,2016,,Population
+Not classified,,2015,,Population
+Upper middle income,,2024,3068439051.0,Population
+Upper middle income,,2023,3057927413.0,Population
+Upper middle income,,2022,3050300704.0,Population
+Upper middle income,,2021,3041374322.0,Population
+Upper middle income,,2020,3027927471.0,Population
+Upper middle income,,2019,3010528196.0,Population
+Upper middle income,,2018,2989519673.0,Population
+Upper middle income,,2017,2966243458.0,Population
+Upper middle income,,2016,2941432440.0,Population
+Upper middle income,,2015,2916662642.0,Population
+High income,,2024,1.22088573813595,FDI
+High income,,2023,0.755772584471135,FDI
+High income,,2022,2.0164364783943,FDI
+High income,,2021,2.75787113726986,FDI
+High income,,2020,1.11916176406291,FDI
+High income,,2019,2.38925718017183,FDI
+High income,,2018,0.750991294865925,FDI
+High income,,2017,3.18737992449109,FDI
+High income,,2016,4.28516975263533,FDI
+High income,,2015,4.25297593360693,FDI
+Low income,,2024,3.43585803482831,FDI
+Low income,,2023,3.54021936892261,FDI
+Low income,,2022,3.17980753923188,FDI
+Low income,,2021,3.94059286739747,FDI
+Low income,,2020,3.06278405505784,FDI
+Low income,,2019,3.38420738438353,FDI
+Low income,,2018,2.96922542945655,FDI
+Low income,,2017,3.46273447805143,FDI
+Low income,,2016,3.65562128251192,FDI
+Low income,,2015,3.56388261049935,FDI
+Lower middle income,,2024,1.65775878817048,FDI
+Lower middle income,,2023,1.10614813477091,FDI
+Lower middle income,,2022,1.31799889084905,FDI
+Lower middle income,,2021,1.28575728465001,FDI
+Lower middle income,,2020,1.65708975344966,FDI
+Lower middle income,,2019,1.50343115261492,FDI
+Lower middle income,,2018,1.36634772190854,FDI
+Lower middle income,,2017,1.48959818216701,FDI
+Lower middle income,,2016,1.88824375108746,FDI
+Lower middle income,,2015,2.31195280858568,FDI
+Not classified,,2024,,FDI
+Not classified,,2023,,FDI
+Not classified,,2022,,FDI
+Not classified,,2021,,FDI
+Not classified,,2020,,FDI
+Not classified,,2019,,FDI
+Not classified,,2018,,FDI
+Not classified,,2017,,FDI
+Not classified,,2016,,FDI
+Not classified,,2015,,FDI
+Upper middle income,,2024,1.03741963728463,FDI
+Upper middle income,,2023,1.02927609585277,FDI
+Upper middle income,,2022,1.63176285063378,FDI
+Upper middle income,,2021,2.19890253261657,FDI
+Upper middle income,,2020,1.7303247773408,FDI
+Upper middle income,,2019,1.73309064104773,FDI
+Upper middle income,,2018,2.04484106239093,FDI
+Upper middle income,,2017,1.82978434323581,FDI
+Upper middle income,,2016,1.99749127324916,FDI
+Upper middle income,,2015,2.32732092518052,FDI

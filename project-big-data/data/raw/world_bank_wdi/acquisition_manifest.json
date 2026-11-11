@@ -1,0 +1,121 @@
+{
+    "dataset": "World Development Indicators",
+    "publisher": "World Bank",
+    "api_base_url": "https://api.worldbank.org/v2/country/all/indicator/",
+    "access_date": "2026-11-11T21:02:04.935508+07:00",
+    "parameters": {
+        "start_year": 2015,
+        "end_year": 2024,
+        "country": "all",
+        "format": "json",
+        "per_page": 20000,
+        "timeout_seconds": 180,
+        "max_retries": 3
+    },
+    "acquisition_status": "success",
+    "indicators": [
+        {
+            "indicator_name": "GDP_Growth",
+            "indicator_code": "NY.GDP.MKTP.KD.ZG",
+            "status": "success",
+            "date_range": "2015-2024",
+            "total_records": 2660,
+            "total_pages": 1,
+            "files": [
+                {
+                    "file_name": "NY.GDP.MKTP.KD.ZG_page_1.json",
+                    "page": 1,
+                    "records": 2660,
+                    "file_size_bytes": 583572,
+                    "sha256": "f0531599cf22cb83a47d4a973992ec4917812f500dd37397ef6263ab6942a580"
+                }
+            ]
+        },
+        {
+            "indicator_name": "GDP_per_Capita",
+            "indicator_code": "NY.GDP.PCAP.CD",
+            "status": "success",
+            "date_range": "2015-2024",
+            "total_records": 2660,
+            "total_pages": 1,
+            "files": [
+                {
+                    "file_name": "NY.GDP.PCAP.CD_page_1.json",
+                    "page": 1,
+                    "records": 2660,
+                    "file_size_bytes": 593597,
+                    "sha256": "729157673d6895454e84fc094a3fcfd2d71174193fab034360a7d83443e5b7bb"
+                }
+            ]
+        },
+        {
+            "indicator_name": "Unemployment",
+            "indicator_code": "SL.UEM.TOTL.ZS",
+            "status": "success",
+            "date_range": "2015-2024",
+            "total_records": 2660,
+            "total_pages": 1,
+            "files": [
+                {
+                    "file_name": "SL.UEM.TOTL.ZS_page_1.json",
+                    "page": 1,
+                    "records": 2660,
+                    "file_size_bytes": 674455,
+                    "sha256": "bce9a01186551121c19382c6f292770d3dd220d358e2349d1c061c78c5c2de19"
+                }
+            ]
+        },
+        {
+            "indicator_name": "Internet_Users",
+            "indicator_code": "IT.NET.USER.ZS",
+            "status": "success",
+            "date_range": "2015-2024",
+            "total_records": 2660,
+            "total_pages": 1,
+            "files": [
+                {
+                    "file_name": "IT.NET.USER.ZS_page_1.json",
+                    "page": 1,
+                    "records": 2660,
+                    "file_size_bytes": 630362,
+                    "sha256": "81e354dcd8150791eb0931b14f55ef4f6248f56b9a01102c069f2448e0280b42"
+                }
+            ]
+        },
+        {
+            "indicator_name": "Population",
+            "indicator_code": "SP.POP.TOTL",
+            "status": "success",
+            "date_range": "2015-2024",
+            "total_records": 2660,
+            "total_pages": 1,
+            "files": [
+                {
+                    "file_name": "SP.POP.TOTL_page_1.json",
+                    "page": 1,
+                    "records": 2660,
+                    "file_size_bytes": 535195,
+                    "sha256": "2b3651511d0a48dce6cf6af5b7ca1a43aacffdf26be844f4d41974f426721e5a"
+                }
+            ]
+        },
+        {
+            "indicator_name": "FDI",
+            "indicator_code": "BX.KLT.DINV.WD.GD.ZS",
+            "status": "success",
+            "date_range": "2015-2024",
+            "total_records": 2660,
+            "total_pages": 1,
+            "files": [
+                {
+                    "file_name": "BX.KLT.DINV.WD.GD.ZS_page_1.json",
+                    "page": 1,
+                    "records": 2660,
+                    "file_size_bytes": 664523,
+                    "sha256": "787dd8b4f4ec716cbdf13a0aa9acbab457c0b16fc1dd6a418f57e9b99798f2ac"
+                }
+            ]
+        }
+    ],
+    "failed_indicators": []
+}

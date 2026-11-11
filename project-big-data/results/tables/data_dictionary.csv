@@ -1,0 +1,10 @@
+variable,description,data_type,unit,role
+country,Nama negara atau wilayah,String,Nama,Key
+countryiso3code,Kode negara ISO 3166-1 alpha-3,String,Kode,Key
+date,Tahun observasi,Integer,Tahun,Key
+GDP_Growth,Pertumbuhan PDB tahunan,Numeric,Persen (%),Target
+GDP_per_Capita,PDB per kapita,Numeric,US Dollar,Predictor
+Unemployment,Tingkat pengangguran total,Numeric,Persen (%),Predictor
+Internet_Users,Persentase penduduk pengguna internet,Numeric,Persen (%),Predictor
+Population,Jumlah penduduk,Numeric,Orang,Predictor
+FDI,Investasi asing langsung bersih terhadap PDB,Numeric,Persen (%),Predictor
